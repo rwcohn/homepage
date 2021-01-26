@@ -11,8 +11,8 @@ const Header = () => (
       </div>
       <br />
       <a href="/">Home</a> <br/>
-      <a href="projects">Projects/Research</a> <br />
-      <a href="publications">Publications</a> <br/>
+      <a href="/projects">Projects/Research</a> <br />
+      <a href="/publications">Publications</a> <br/>
       <a href={resume} download>Resume</a> <br/>
 
 
