@@ -26,8 +26,8 @@
 // Palette.
 	$palette: (
 		bg:					#fff,
-		fg:					#a2a2a2,
-		fg-bold:			#787878,
+		fg:					#ffffff,
+		fg-bold:			#49bf9d,
 		fg-light:			#b2b2b2,
 		border:				#efefef,
 		border-bg:			#f7f7f7,
@@ -35,24 +35,24 @@
 		border2-bg:			#e7e7e7,
 
 		accent1: (
-			bg:				#49bf9d,
+			bg:				#040e9e,
 			fg:				mix(#49bf9d, #ffffff, 25%),
 			fg-bold:		#ffffff,
 			fg-light:		mix(#49bf9d, #ffffff, 40%),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
+			border:			rgb(255, 255, 255),
+			border-bg:		rgb(255, 255, 255),
+			border2:		rgb(255, 255, 255),
+			border2-bg:		rgb(255, 251, 251)
 		),
 
 		accent2: (
 			bg:				#1f1815,
-			fg:				rgba(255,255,255,0.5),
-			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.4),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
+			fg:				#1f1815,
+			fg-bold:		#1f1815,
+			fg-light:		#1f1815,
+			border:			rgb(255, 255, 255),
+			border-bg:		rgb(255, 255, 255),
+			border2:		rgb(255, 255, 255),
+			border2-bg:		rgb(255, 255, 255),
 		)
 	);
