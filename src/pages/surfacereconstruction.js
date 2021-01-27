@@ -71,9 +71,10 @@ export default function Projects() {
         These phantom "bubbles" are the result of Poisson reconstruction's (elegant) treatment of the problem as the optimization of a watertight surface whose surface was sampled
         to produce the scanned point clouds. <br/><br />
 
-        The second family of methods in the literature for handling sets of point clouds collected from differing perspectives treats the problem more directly.
-        The <i>Zippering</i> approach of Turk et. al. [4] would be an ideal solution, except computationally it does not scale well to the higher resolutions 3co works with. To 
-        address this issue, Meerits et. al. [5] have reformulated the algorithm to be GPU-friendly, potentially making it computationally viable to higher resolutions. Unfortunately, their code is
+        The second family of methods in the literature for handling sets of point clouds collected from differing perspectives treats the problem more directly by growing the mesh
+        at a local level, as opposed to optimizing for a global objective.
+        In particular, the <i>Zippering</i> approach of Turk et. al. [4] meshes the scans individually and then performs decimation in overlapping areas.  This would be an ideal solution, except computationally it does not scale well to the higher resolutions 3co works with. To 
+        address this issue, Meerits et. al. [5] have reformulated the algorithm to be GPU-friendly, potentially making it computationally viable for higher resolutions. Unfortunately, their code is
         not publically available for testing, and their results do not appear to construct models at the level of accuracy needed for commercially usable 3D models.
 
         <br/><br/>

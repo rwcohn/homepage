@@ -33,7 +33,7 @@ export default function Projects() {
 
         
         <div className="image left">
-        <img src={chairbase} width="30%" className = "left"/>     
+        <img src={chairbase} className = "left"/>     
         </div>
         <br /><br /> 
         In the context of 3D object scanning, the goal is to measure a 
@@ -46,7 +46,7 @@ export default function Projects() {
         
         
         <div className="image right">
-        <img src={chair0} width="30%" className = "right"/>     
+        <img src={chair0} className = "right"/>     
         </div>        
         The first step of this process is to collect data about the object from all necessary perspectives, which might produce
         a pointcloud like that shown on the right.  
@@ -69,7 +69,7 @@ export default function Projects() {
         </div> */}
         
         <div className="image left">
-        <img src={chair1} width="75%" className = "left"/>     
+        <img src={chair1} className = "left"/>     
         </div> 
         <br /><br />
         For those interested, I dive into a little more detail about just the surface reconstruction
