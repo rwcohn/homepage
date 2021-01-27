@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "rwcohn-personal_site",
+  "description": "Rob Cohn's personal site",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Rob Cohn",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-plugin-manifest": "^2.3.3",
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.js\"",
