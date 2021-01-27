@@ -1,10 +1,5 @@
 module.exports = {
-  pathPrefix: "/personal_site",
-  siteMetadata: {
-    title: '',
-    author: '',
-    description: '',
-  },
+  pathPrefix: '/personal_site',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
