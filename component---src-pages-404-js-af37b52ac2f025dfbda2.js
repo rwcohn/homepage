@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2l6:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),i=t.n(a),l=(t("TJpk"),t("Bl7J"));n.default=function(){return i.a.createElement(l.a,null,i.a.createElement("div",{id:"main"},i.a.createElement("h1",null,"Error: page does not exist!"),i.a.createElement("p",null,"Nothing has been found here. Which is something. ")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-af37b52ac2f025dfbda2.js.map
