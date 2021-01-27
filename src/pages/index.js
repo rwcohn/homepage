@@ -18,7 +18,7 @@ const HomeIndex = () => {
         <section id="one">
 
           <h1>Welcome to Rob Cohn's home page</h1> <br />
-          [] I'm currently working as Director of AI at <a href="https://3co.ai">3co </a>. 
+          I'm currently working as Director of AI at <a href="https://3co.ai">3co </a>. 
           I received my Ph.D. in AI/computer science from the University of Michigan in 2016, advised by <a href="https://web.eecs.umich.edu/~baveja/"> Satinder Singh </a> and <a href="https://durfee.engin.umich.edu/"> Edmund Durfee </a>.    <br />
           <br />
           <p>I'm always interested in working on challenging AI and machine learning problems, especially those relating to operations in industry.
