@@ -24,14 +24,14 @@ const HomeIndex = () => {
           <p>I'm always interested in working on challenging AI and machine learning problems, especially those relating to operations in industry.
             
             Please contact me if you would like to discuss potential collaboration. To get an idea of the kind of work
-            I've done recently, take a look at my <a href="projects">past project summaries.</a></p>
+            I've done recently, take a look at my <a href="/homepage/projects">past project summaries.</a></p>
             
           <ul className="labeled-icons">  
           <li>
           <h3 className="icon fa-envelope-o">
             <span className="label">Email</span>
           </h3>
-          robbcohn@gmail.com
+          robwcohn@gmail.com
           </li>
           </ul>
 
